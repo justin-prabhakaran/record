@@ -19,7 +19,7 @@ import kotlin.math.abs
  * This class is responsible for creating the encoder and container for the specified format.
  * It also provides the [MediaFormat] for the encoded audio stream.
  */
-sealed class Format {
+abstract class Format {
     /**
      * The MIME type of the encoded audio stream inside the container.
      */
